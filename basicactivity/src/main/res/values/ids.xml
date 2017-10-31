@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="actCt" type="id">cut</item>
+    <item name="actCp" type="id">copy</item>
+</resources>
