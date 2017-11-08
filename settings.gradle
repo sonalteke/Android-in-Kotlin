@@ -1,0 +1,1 @@
+include ':app', ':basicactivity', ':navigationdraweractivity', ':slidertabbedactivity', ':tabbedactivityfragments', ':intentandintentfilters', ':longitudeandlattitude', ':broadcastreceiver', ':servicesmediaplayer', ':jobscheduler', ':aidlclient', ':aidlserver', ':aidlserver', ':dialogs', ':notifications'

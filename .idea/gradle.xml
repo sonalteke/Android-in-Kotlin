@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlserver" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/basicactivity" />
+            <option value="$PROJECT_DIR$/broadcastreceiver" />
+            <option value="$PROJECT_DIR$/dialogs" />
+            <option value="$PROJECT_DIR$/intentandintentfilters" />
+            <option value="$PROJECT_DIR$/jobscheduler" />
+            <option value="$PROJECT_DIR$/longitudeandlattitude" />
+            <option value="$PROJECT_DIR$/navigationdraweractivity" />
+            <option value="$PROJECT_DIR$/notifications" />
+            <option value="$PROJECT_DIR$/servicesmediaplayer" />
+            <option value="$PROJECT_DIR$/slidertabbedactivity" />
+            <option value="$PROJECT_DIR$/tabbedactivityfragments" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

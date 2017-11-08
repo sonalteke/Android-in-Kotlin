@@ -38,12 +38,12 @@ class MainActivity : AppCompatActivity() {
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
             R.id.actCt -> {
-                Toast.makeText(this,"cut",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"settings",Toast.LENGTH_SHORT).show()
                 return true
             }
 
             R.id.actCp ->{
-                Toast.makeText(this,"copy",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"cut",Toast.LENGTH_SHORT).show()
                 return true
             }
             else -> super.onOptionsItemSelected(item)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/KotlinApp.iml" filepath="$PROJECT_DIR$/KotlinApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basicactivity/basicactivity.iml" filepath="$PROJECT_DIR$/basicactivity/basicactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" filepath="$PROJECT_DIR$/broadcastreceiver/broadcastreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogs/dialogs.iml" filepath="$PROJECT_DIR$/dialogs/dialogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" filepath="$PROJECT_DIR$/intentandintentfilters/intentandintentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jobscheduler/jobscheduler.iml" filepath="$PROJECT_DIR$/jobscheduler/jobscheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/longitudeandlattitude/longitudeandlattitude.iml" filepath="$PROJECT_DIR$/longitudeandlattitude/longitudeandlattitude.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationdraweractivity/navigationdraweractivity.iml" filepath="$PROJECT_DIR$/navigationdraweractivity/navigationdraweractivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notifications/notifications.iml" filepath="$PROJECT_DIR$/notifications/notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicesmediaplayer/servicesmediaplayer.iml" filepath="$PROJECT_DIR$/servicesmediaplayer/servicesmediaplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidertabbedactivity/slidertabbedactivity.iml" filepath="$PROJECT_DIR$/slidertabbedactivity/slidertabbedactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tabbedactivityfragments/tabbedactivityfragments.iml" filepath="$PROJECT_DIR$/tabbedactivityfragments/tabbedactivityfragments.iml" />
+    </modules>
+  </component>
+</project>
