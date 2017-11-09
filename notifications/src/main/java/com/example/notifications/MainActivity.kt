@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
                         "sample",
                         NotificationManager.IMPORTANCE_HIGH
                 )
-        /*mChannel.description="this is sample description"
-        mChannel.enableLights(true)
+        mChannel.description="this is sample description"
+        /*mChannel.enableLights(true)
         mChannel.lightColor=Color.BLACK
         mChannel.vibrationPattern=
                 longArrayOf(100,200,300,400,500,400,300,200,400)*/
@@ -69,6 +69,7 @@ class MainActivity : AppCompatActivity() {
                     .setContentTitle("Title")
                     .setDefaults(Notification.DEFAULT_ALL)
                     .setContentInfo("Content Info")
+                    .setContentIntent(penInt)
                     .setAutoCancel(true)
                     .addAction(R.mipmap.ic_launcher,"Action",penInt)
                     .setContentText("text").build()

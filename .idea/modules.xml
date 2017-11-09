@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/servicesmediaplayer/servicesmediaplayer.iml" filepath="$PROJECT_DIR$/servicesmediaplayer/servicesmediaplayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidertabbedactivity/slidertabbedactivity.iml" filepath="$PROJECT_DIR$/slidertabbedactivity/slidertabbedactivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/tabbedactivityfragments/tabbedactivityfragments.iml" filepath="$PROJECT_DIR$/tabbedactivityfragments/tabbedactivityfragments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uithread/uithread.iml" filepath="$PROJECT_DIR$/uithread/uithread.iml" />
     </modules>
   </component>
 </project>
