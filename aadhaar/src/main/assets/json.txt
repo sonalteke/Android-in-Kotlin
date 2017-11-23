@@ -1,0 +1,7 @@
+{
+	"name":"anu",
+	"dob" : "11-11-1999",
+	"gender":"female",
+	"address":"pune"
+	
+}
