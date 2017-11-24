@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
         for (Car car1 : db.carDao().cars()) {
             Log.i("@codekul", "Name = "+car1.getNm());
+            Log.i("@codekul","cost = "+car1.getCost());
+            Log.i("@codekul","Id = "+car1.getId());
+
         }
     }
 }
