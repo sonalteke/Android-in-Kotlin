@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">Aadhaar</string>
     <string name="title_activity_verify2">VerifyActivity</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="txtNum">aadharnumber</string>
+    <string name="btnSend">send</string>
+    <string name="txtOtp">otp</string>
+    <string name="btnVerify">verify</string>
+    <string name="btnResend">resend</string>
+    <string name="btnClear">clear</string>
+    <string name="imgUser">user</string>
+    <string name="txtUser">userid</string>
+    <string name="txtId">id</string>
+    <string name="txtAadharnum">aadhsrid</string>
+    <string name="txtNumber">aid</string>
+    <string name="txtName">name</string>
+    <string name="txtDob">dob</string>
+    <string name="txtAddr">address</string>
+    <string name="txtGender">gender</string>
+    <string name="txtAdhar">adhar</string>
 </resources>

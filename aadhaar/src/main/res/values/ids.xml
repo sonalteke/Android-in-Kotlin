@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="btnSend" type="id">send</item>
-    <item name="btnResend" type="id">resend</item>
-    <item name="lunch_menu_name" type="id">name</item>
-    <item name="lunch_menu_count" type="id">count</item>
-    <item name="txtAdhar" type="id">adhar</item>
-    <item name="txtNum" type="id">number</item>
-    <item name="txtOtp" type="id">otp</item>
-    <item name="btnVerify" type="id">verify</item>
-    <item name="imgUser" type="id">user</item>
-    <item name="txtUser" type="id">User</item>
-    <item name="txtId" type="id">id</item>
-    <item name="txtAadharnum" type="id">number</item>
-    <item name="txtNumber" type="id">numberone</item>
-    <item name="txtName" type="id">Name</item>
-    <item name="txtDob" type="id">dob</item>
-    <item name="txtAddr" type="id">addr</item>
-    <item name="txtGender" type="id">gender</item>
+
 </resources>

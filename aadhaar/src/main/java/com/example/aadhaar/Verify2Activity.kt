@@ -1,20 +1,17 @@
 package com.example.aadhaar
 
+import android.annotation.SuppressLint
 import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.example.aadhaar.R.id.imgUser
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_verify2.*
 import org.jetbrains.anko.*
-import org.json.JSONArray
 import org.json.JSONObject
-import org.w3c.dom.Text
 import java.io.InputStream
 
 
@@ -32,6 +29,7 @@ class Verify2Activity : AppCompatActivity() {
 
 
 
+    @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_verify2)
@@ -47,7 +45,7 @@ class Verify2Activity : AppCompatActivity() {
                         text = "Verified Successfully..."
                         textSize = 30f
                         typeface = Typeface.DEFAULT_BOLD
-                        backgroundColor = Color.MAGENTA
+                        backgroundColor = Color.rgb(0,137,123)
                         textColor = Color.WHITE
                     }
 
@@ -57,7 +55,7 @@ class Verify2Activity : AppCompatActivity() {
 
                      imgUser=imageView(R.drawable.ic_person_black_24dp)
                         {
-                            id = R.id.imgUser
+                            id = R.string.imgUser
                             backgroundColor = Color.LTGRAY
                         }.lparams(width = dip(130), height = dip(130)) {
                             horizontalMargin = dip(5)
@@ -66,13 +64,13 @@ class Verify2Activity : AppCompatActivity() {
                         verticalLayout {
                             padding = dip(10)
                          txtUser=textView {
-                                id = R.id.txtUser
+                                id = R.string.txtUser
                                 text = "User_Id : "
                                 textSize = 20f
                                 typeface = Typeface.DEFAULT_BOLD
                             }
                          txtId= textView {
-                                id = R.id.txtId
+                                id = R.string.txtId
                                 text = "123456789123"
                                 textSize = 20f
 
@@ -80,13 +78,13 @@ class Verify2Activity : AppCompatActivity() {
                                 verticalMargin = dip(8)
                             }
                            txtAdhar=textView {
-                                id = R.id.txtAadharnum
+                                id = R.string.txtAadharnum
                                 text = "Aadhaar_Id : "
                                 textSize = 20f
                                 typeface = Typeface.DEFAULT_BOLD
                             }
                            txtNumber=textView {
-                                id = R.id.txtNumber
+                                id = R.string.txtNumber
                                 text = "121212121212"
                                 textSize = 20f
                             }
@@ -95,25 +93,25 @@ class Verify2Activity : AppCompatActivity() {
 
                     padding = dip(5)
                     txtName=textView {
-                        id = R.id.txtName
+                        id = R.string.txtName
                         text = "Name :"
                         textSize = 20f
                         typeface = Typeface.DEFAULT_BOLD
                     }
                     txtDob=textView {
-                        id = R.id.txtDob
+                        id = R.string.txtDob
                         text = "DOB :"
                         textSize = 20f
                         typeface = Typeface.DEFAULT_BOLD
                     }
                    txtGender=textView {
-                        id = R.id.txtGender
+                        id = R.string.txtGender
                         text = "Gender :"
                         textSize = 20f
                         typeface = Typeface.DEFAULT_BOLD
                     }
                    txtAddress= textView {
-                        id = R.id.txtAddr
+                        id = R.string.txtAddr
                         text = "Address :"
                         textSize = 20f
                         typeface = Typeface.DEFAULT_BOLD
@@ -123,7 +121,7 @@ class Verify2Activity : AppCompatActivity() {
         }.show()
 
         Picasso.with(applicationContext)
-                .load("http://i.imgur.com")
+                .load("https://i.imgur.com/DvpvklR.png")
                 .into(imgUser)
 
         val ist :InputStream = assets.open("json.txt")
@@ -136,7 +134,7 @@ class Verify2Activity : AppCompatActivity() {
         val gender : String = rtObj.getString("gender")
         val address : String = rtObj.getString("address")
 
-        Log.i("@codekul","name ${name}")
+
         if (txtName.text.isNotEmpty()) {
             txtName.append(name)
         }
