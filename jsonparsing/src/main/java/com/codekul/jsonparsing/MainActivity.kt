@@ -3,7 +3,10 @@ package com.codekul.jsonparsing
 import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.renderscript.Sampler
 import android.util.Log
+import com.codekul.jsonparsing.dto.Samplee
+import com.google.gson.Gson
 import org.json.JSONArray
 import org.json.JSONObject
 import java.io.InputStream
@@ -14,10 +17,31 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        gson()
+    }
+
+    fun gson() {
+        val ist: InputStream = assets.open("my.txt")
+        val flDt = ist.bufferedReader().use {
+            it.readText()
+        }
+
+        val gs = Gson()
+        val Samplee = gs.fromJson<Samplee>(flDt, Samplee::class.java)
+        Log.i("@codekul", """Name = ${Samplee.nm}""")
+        Log.i("@codekul", """Age = ${Samplee.age}""")
+        Samplee.mobs.forEach{
+            Log.i("@codekul", """$it""")
+        }
+    }
+
+    fun normal(){
         val ist :InputStream = assets.open("my.txt")
         val flDt = ist.bufferedReader().use {
             it.readText()
         }
+
+
          val rtObj =JSONObject(flDt)
         Log.i("@codekul","""Name= ${rtObj.getString("nm")}""")
         Log.i("@codekul","""Age= ${rtObj.getInt("age")}""")
