@@ -11,7 +11,7 @@ import android.widget.TextView
 /**
  * Created by sonal on 6/12/17.
  */
-class MyAdapter(val list:ArrayList<MyDataClass>): RecyclerView.Adapter<MyAdapter.ViewHolder>() {
+class MyAdapter(private val list:ArrayList<MyDataClass>): RecyclerView.Adapter<MyAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyAdapter.ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.custom_layout, parent, false)
@@ -29,6 +29,7 @@ class MyAdapter(val list:ArrayList<MyDataClass>): RecyclerView.Adapter<MyAdapter
     }
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view) {
+
         fun bindItems(data : MyDataClass){
             val _textView1:TextView = itemView.findViewById(R.id.tvVersion)
             val _textView2:TextView = itemView.findViewById(R.id.tvName)
@@ -41,7 +42,6 @@ class MyAdapter(val list:ArrayList<MyDataClass>): RecyclerView.Adapter<MyAdapter
             itemView.setOnClickListener({
                 Log.e("ItemClicked", data.name)
                 Log.e("ItemClicked", data.version)
-
             })
         }
 
